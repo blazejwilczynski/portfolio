@@ -33,7 +33,7 @@ header {
 nav {
   width: 450px;
   margin-top: 5px;
-  background: lightseagreen;
+  //background: lightseagreen;
 }
 
 .nav-element {
@@ -41,7 +41,7 @@ nav {
   height: 25px;
   //width: 40px;
   margin-left: 25px;
-  background: lightskyblue;
+  //background: lightskyblue;
 }
 
 .nav-element > a {
@@ -141,8 +141,15 @@ nav {
 }
 
 @media screen and (max-width: 1225px) {
-  .social-icons-wrap {
-    margin-right: 20px;
-  }
+.social-icons-wrap {
+  margin-right: 20px;
+}
+}
 
+@media screen and (max-width: 1030px) {
+.social-icons-wrap {
+  width: -webkit-calc(100% - 560px);
+  width:    -moz-calc(100% - 560px);
+  width:         calc(100% - 560px);
+  }
 }

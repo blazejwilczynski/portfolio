@@ -391,14 +391,12 @@ header {
 
 nav {
   width: 450px;
-  margin-top: 5px;
-  background: lightseagreen; }
+  margin-top: 5px; }
 
 .nav-element {
   display: inline-block;
   height: 25px;
-  margin-left: 25px;
-  background: lightskyblue; }
+  margin-left: 25px; }
 
 .nav-element > a {
   text-decoration: none;
@@ -474,6 +472,12 @@ nav {
 @media screen and (max-width: 1225px) {
   .social-icons-wrap {
     margin-right: 20px; } }
+
+@media screen and (max-width: 1030px) {
+  .social-icons-wrap {
+    width: -webkit-calc(100% - 560px);
+    width: -moz-calc(100% - 560px);
+    width: calc(100% - 560px); } }
 
 .site-wrap {
   border: 1px solid #3c3c3c;
