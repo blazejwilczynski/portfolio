@@ -1,0 +1,148 @@
+header {
+  //background: #F1F1F1;
+  height: 35px;
+  max-width: 1215px;
+  //background-color: lightsalmon;
+  margin: 0 auto;
+  //padding-top: 16px;
+  //padding-left: 25px;
+  //display: flex;
+  align-items: center;
+  color: $base-text-color;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.bw-logo {
+  display: inline-block;
+  height: 25px;
+  width: 42px;
+  //margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 2px;
+  background: url('/assets/img/bw-logo-25px-42px.svg');
+  background-size: cover;
+}
+
+nav {
+  width: 450px;
+  margin-top: 5px;
+  background: lightseagreen;
+}
+
+.nav-element {
+  display: inline-block;
+  height: 25px;
+  //width: 40px;
+  margin-left: 25px;
+  background: lightskyblue;
+}
+
+.nav-element > a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.4s ease;
+}
+
+.nav-element > a:hover {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
+}
+
+.social-icons-wrap {
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-calc(100% - 530px);
+  width:    -moz-calc(100% - 530px);
+  width:         calc(100% - 530px);
+  height: 25px;
+  margin-top: 5px;
+  //background: lightpink;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 112px;
+  height: 25px;
+  //background: lightseagreen;
+}
+
+
+.social-logo {
+  height: 21px;
+  width: 21px;
+  background-repeat: no-repeat;
+  //background: lightsalmon;
+}
+
+.social-logo-dribbble {
+  height: 21px;
+  width: 21px;
+  background-repeat: no-repeat;
+  //background: lightsalmon;
+}
+
+.social-logo path {
+  fill: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease;
+}
+
+.social-logo circle {
+  fill: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease;
+}
+
+.social-logo:hover path {
+  fill: rgba(0, 0, 0, 0.55);
+}
+
+.social-logo:hover circle {
+  fill: rgba(0, 0, 0, 0.55);
+}
+
+.social-logo-dribbble path {
+  stroke: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease;
+}
+
+.social-logo-dribbble circle {
+  stroke: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease;
+}
+
+.social-logo-dribbble:hover path {
+  stroke: rgba(0, 0, 0, 0.55);
+  transition: all 0.4s ease;
+}
+
+.social-logo-dribbble:hover circle {
+  stroke: rgba(0, 0, 0, 0.55);
+  transition: all 0.4s ease;
+}
+
+
+@media screen and (max-width: 1285px) {
+
+.bw-logo {
+  margin-left: 25px;
+}
+
+.social-icons-wrap {
+  margin-right: 5px;
+}
+}
+
+@media screen and (max-width: 1225px) {
+  .social-icons-wrap {
+    margin-right: 20px;
+  }
+
+}
