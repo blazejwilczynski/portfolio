@@ -1,15 +1,16 @@
 .landing {
-  max-width: 1200px;
+  max-width: 1025px;
   //height: 850px;
   margin: 25px auto;
-  margin-top: 125px;
+  margin-top: 85px;
+  
   //background: lightcoral;
 }
 
 //Start of landing 1
 
 .landing-1-wrapper {
-  height: 350px;
+  height: 430px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,11 +19,11 @@
   //background: salmon;
 }
 
-.mobile-elements-image {
-  height: 350px;
-  width: 440px;
+.landing-main-image {
+  height: 430px;
+  width: 320px;
   //background: lightseagreen;
-  background-image: url("../img/mobile-elements-image-440-x-350.svg");
+  background-image: url("../img/landing-main-320px-420px.svg");
   background-size: cover;
   background-position: center;
 }
@@ -133,144 +134,4 @@
   margin-left: 7px;
   color: $background-color;
   background: rgba(0, 0, 0, 0.75);
-}
-
-@media screen and (max-width: 1500px) {
-
-  .landing {
-    width: 80%;
-    //height: 700px;
-    //background: lightseagreen;
-  }
-  
-  //Start of landing 1
-  
-  .landing-1-wrapper {
-    height: 315px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
-    //background: salmon;
-  }
-  
-  .mobile-elements-image {
-    height: 315px;
-    width: 400px;
-    //background: lightseagreen;
-    background-image: url("../img/mobile-elements-image.svg");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .lets-rock {
-    height: 315px;
-    width: 500px;
-    //background: lightseagreen;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 36px;
-    color: #3c3c3c;
-  }
-  
-  .slogan-1-wrapper {
-    //background: lightcoral;
-    // display: inline-block;
-  }
-  
-  .slogan-1a {
-    display: inline-block;
-    
-  }
-  
-  .slogan-1b {
-    display: inline-block;
-    color: $creepy-pink;
-    width: 180px;
-    height: 65px;
-    //background: lightseagreen;
-    border-bottom: 3px solid #3c3c3c;
-    text-align: center;
-  }
-  
-  //End of landing 1
-  
-  //---------------
-  
-  //Start of landing 2
-  
-  .landing-2-wrapper {
-    height: 355px;
-    width: 100%;
-    margin-top: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .no-internet-image {
-    height: 355px;
-    width: 310px;
-    background-image: url("../img/no-internet-image.svg");
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .no-internet {
-    height: 355px;
-    width: 500px;
-    //background: lightseagreen;
-    //display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-    color: #3c3c3c;
-  }
-  
-  .slogan-2-wrapper {
-    width: 500px;
-    //background: lightcoral;
-    display: block;
-    align-items: center;
-    margin-top: 100px;
-    // display: inline-block;
-  }
-  
-  .slogan-2a-wrapper {
-    display: inline-flex;
-    height: 50px;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .slogan-2b-wrapper {
-    display: inline-flex;
-    height: 50px;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .slogan-2a {
-    //height: 50px;
-  
-    display: block;
-    text-align: center;
-    margin-left: 15px;
-  }
-  
-  .slogan-2b {
-    //height: 50px;
-    width: 125px;
-    display: block;
-    text-align: center;
-    margin-left: 10px;
-    color: $background-color;
-    background: rgba(0, 0, 0, 0.75);
-  }
-  
-
-
-
 }
