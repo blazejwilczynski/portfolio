@@ -386,7 +386,7 @@ header {
   width: 42px;
   margin-right: 25px;
   margin-top: 2px;
-  background: url("/assets/img/bw-logo-25px-42px.svg");
+  background: url("../img/bw-logo-25px-42px.svg");
   background-size: cover; }
 
 nav {
