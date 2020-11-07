@@ -310,37 +310,6 @@ template {
 * {
   box-sizing: border-box; }
 
-.gigantic, .huge, .large, .bigger, .big,
-h1, h2, h3, h4, h5, h6 {
-  color: #333;
-  font-weight: bold; }
-
-.gigantic {
-  font-size: 110px;
-  line-height: 1.09;
-  letter-spacing: -2px; }
-
-.huge, h1 {
-  font-size: 68px;
-  line-height: 1.05;
-  letter-spacing: -1px; }
-
-.large, h2 {
-  font-size: 42px;
-  line-height: 1.14; }
-
-.bigger, h3 {
-  font-size: 26px;
-  line-height: 1.38; }
-
-.big, h4 {
-  font-size: 22px;
-  line-height: 1.38; }
-
-.small, small {
-  font-size: 10px;
-  line-height: 1.2; }
-
 p {
   margin: 0 0 20px 0; }
 
@@ -486,7 +455,8 @@ nav {
 .landing {
   max-width: 1025px;
   margin: 25px auto;
-  margin-top: 85px; }
+  margin-top: 85px;
+  color: rgba(0, 0, 0, 0.75); }
 
 .landing-1-wrapper {
   height: 430px;
@@ -503,80 +473,39 @@ nav {
   background-size: cover;
   background-position: center; }
 
-.lets-rock {
-  height: 350px;
-  width: 550px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 46px;
-  color: #3c3c3c; }
+.welcome-wrapper {
+  width: 400px;
+  height: 430px;
+  padding-top: 80px;
+  padding-left: 20px;
+  line-height: 1.2; }
 
-.slogan-1a {
-  display: inline-block; }
+.welcome-wrapper h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-block-start: 0px;
+  margin-block-end: 0px; }
 
-.slogan-1b {
-  display: inline-block;
-  font-weight: 500;
-  color: #EF8181;
-  width: 200px;
-  height: 75px;
-  border-bottom: 3px solid #3c3c3c;
-  text-align: center; }
+.welcome-wrapper h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px; }
 
-.landing-2-wrapper {
-  height: 420px;
-  width: 100%;
-  margin-top: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around; }
+h2.bw-name {
+  line-height: 1.6;
+  font-weight: 600; }
 
-.no-internet-image {
-  height: 420px;
-  width: 370px;
-  background-image: url("../img/no-internet-image-370-x-420.svg");
-  background-size: cover;
-  background-position: center; }
+h3.elements-information {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1.2; }
 
-.no-internet {
-  height: 420px;
-  width: 500px;
-  align-items: center;
-  justify-content: center;
-  font-size: 46px;
-  color: #3c3c3c; }
-
-.slogan-2-wrapper {
-  width: 550px;
-  display: block;
-  align-items: center;
-  margin-top: 100px; }
-
-.slogan-2a-wrapper {
-  display: inline-flex;
-  height: 50px;
-  text-align: center;
-  align-items: center; }
-
-.slogan-2b-wrapper {
-  display: inline-flex;
-  height: 50px;
-  align-items: center;
-  text-align: center; }
-
-.slogan-2a {
-  display: block;
-  text-align: center;
-  margin-left: 15px; }
-
-.slogan-2b {
-  width: 160px;
-  display: block;
-  text-align: center;
-  margin-left: 7px;
-  color: #F1F1F1;
-  background: rgba(0, 0, 0, 0.75); }
+span.red-color {
+  color: #EF8181; }
 
 .projects {
   max-width: 1200px;
