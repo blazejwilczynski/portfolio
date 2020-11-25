@@ -44,7 +44,9 @@
     </nav>
     <div class="social-icons-wrap">
       <div class="social-links">
-        <div class="social-logo"><a href="http://www.github.com/blazejwilczynski" target="_blank"><svg id="github-sign" xmlns="http://www.w3.org/2000/svg" width="21.976" height="21.977" viewBox="0 0 21.976 21.977">
+        <div class="social-logo none-transition">
+          <a href="http://www.github.com/blazejwilczynski" target="_blank"
+            ><svg id="github-sign" xmlns="http://www.w3.org/2000/svg" width="21.976" height="21.977" viewBox="0 0 21.976 21.977">
     <g id="Group_6" data-name="Group 6" transform="translate(7.723 17.666)">
       <path id="Path_96" data-name="Path 96" d="M10.731,24.084q-.229.043-.2.215t.257.114q.229-.057.2-.2T10.731,24.084Z" transform="translate(-10.527 -24.08)" />
     </g>
@@ -70,8 +72,12 @@
       <path id="Path_103" data-name="Path 103" d="M7.2,23.422c-.086.076-.067.167.057.272s.21.129.286.043.057-.167-.057-.272S7.274,23.336,7.2,23.422Z" transform="translate(-7.144 -23.367)" />
     </g>
   </svg>
-  </a></div>
-        <div class="social-logo"><a href="http://www.behance.com/blazejwilczynski" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="22.396" height="22.379" viewBox="0 0 22.396 22.379">
+  </a
+          >
+        </div>
+        <div class="social-logo">
+          <a href="http://www.behance.com/blazejwilczynski" target="_blank"
+            ><svg xmlns="http://www.w3.org/2000/svg" width="22.396" height="22.379" viewBox="0 0 22.396 22.379">
     <g id="Group_41" data-name="Group 41" transform="translate(0 29.989)">
       <path id="Path_1968" data-name="Path 1968" d="M10.781-19.041H8.33v1.954h2.291c.408,0,.764-.107.764-1.048S10.781-19.041,10.781-19.041Z" transform="translate(-2.114 -2.778)" />
       <path id="Path_1969" data-name="Path 1969" d="M10.781-14.519H8.33v2.486h2.309c.355,0,1.03-.142,1.03-1.208C11.687-14.5,10.781-14.519,10.781-14.519Z" transform="translate(-2.114 -3.926)" />
@@ -79,8 +85,12 @@
       <path id="Path_1971" data-name="Path 1971" d="M19.735-16.4A1.6,1.6,0,0,0,18.208-15h2.842A1.334,1.334,0,0,0,19.735-16.4Z" transform="translate(-4.621 -3.449)" />
     </g>
   </svg>
-  </a></div>
-        <div class="social-logo-dribbble"><a href="http://www.dribbble.com/blazejwilczynski" target="_blank"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  </a
+          >
+        </div>
+        <div class="social-logo-dribbble">
+          <a href="http://www.dribbble.com/blazejwilczynski" target="_blank"
+            ><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <g transform="matrix(1.22779,0,0,1.22779,2.7427,-6.05901)">
@@ -96,8 +106,12 @@
         <path d="M7.266,3.039C7.266,3.039 12.572,8.008 15.284,19.79" style="fill:none;stroke-width:1.3px;"/>
     </g>
 </svg>
-</a></div>
-        <div class="social-logo"><a href="http://www.instagram.com/blazej_wilczynski" target="_blank"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+</a
+          >
+        </div>
+        <div class="social-logo">
+          <a href="http://www.instagram.com/blazej_wilczynski" target="_blank"
+            ><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
     <g id="Path_404" transform="matrix(1,0,0,1,0.433192,0.60171)">
@@ -110,9 +124,128 @@
         <circle cx="1" cy="1" r="1" />
     </g>
 </svg>
-</a></div>
+</a
+          >
+        </div>
       </div>
     </div>
+
+    <!-- start of code of hamburger toggler -->
+
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler" />
+      <div class="hamburger">
+        <div></div>
+      </div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="#www">WWW</a></li>
+              <li><a href="#graphics">GRAFIKA</a></li>
+              <li><a href="#books">KSIĄŻKI</a></li>
+              <li><a href="#about-me">O MNIE</a></li>
+              <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+            <div class="social-icons-wrap-mobile">
+            <div class="social-links-mobile">
+              <div class="social-logo-mobile">
+                <a href="http://www.github.com/blazejwilczynski" target="_blank"
+                  ><svg id="github-sign" xmlns="http://www.w3.org/2000/svg" width="21.976" height="21.977" viewBox="0 0 21.976 21.977">
+    <g id="Group_6" data-name="Group 6" transform="translate(7.723 17.666)">
+      <path id="Path_96" data-name="Path 96" d="M10.731,24.084q-.229.043-.2.215t.257.114q.229-.057.2-.2T10.731,24.084Z" transform="translate(-10.527 -24.08)" />
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(6.882 17.781)">
+      <path id="Path_97" data-name="Path 97" d="M9.61,24.241c-.153,0-.229.052-.229.157q0,.186.243.157.229,0,.229-.157Q9.853,24.212,9.61,24.241Z" transform="translate(-9.381 -24.237)" />
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(5.984 17.626)">
+      <path id="Path_98" data-name="Path 98" d="M8.168,24.141q-.057.157.186.215.215.085.272-.086t-.186-.229C8.3,24,8.206,24.036,8.168,24.141Z" transform="translate(-8.157 -24.026)" />
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(0 0)">
+      <path id="Path_99" data-name="Path 99" d="M20.767,1.209A3.969,3.969,0,0,0,17.856,0H4.121A3.97,3.97,0,0,0,1.209,1.209,3.97,3.97,0,0,0,0,4.121V17.856a3.969,3.969,0,0,0,1.209,2.911,3.969,3.969,0,0,0,2.912,1.209h3.2a3.869,3.869,0,0,0,.472-.021.554.554,0,0,0,.315-.186.666.666,0,0,0,.157-.479q0-.043-.007-.973t-.007-1.474l-.329.057a4.211,4.211,0,0,1-.794.05,6.11,6.11,0,0,1-.994-.1,2.229,2.229,0,0,1-.959-.429,1.816,1.816,0,0,1-.629-.88l-.143-.329a3.574,3.574,0,0,0-.451-.729,1.727,1.727,0,0,0-.622-.544l-.1-.072a1.052,1.052,0,0,1-.186-.172.8.8,0,0,1-.129-.2q-.043-.1.072-.165a.93.93,0,0,1,.415-.064l.286.043a2.086,2.086,0,0,1,.708.343,2.309,2.309,0,0,1,.694.744,2.521,2.521,0,0,0,.794.894,1.683,1.683,0,0,0,.937.308,4.065,4.065,0,0,0,.816-.071,2.848,2.848,0,0,0,.644-.215,2.319,2.319,0,0,1,.7-1.474,9.8,9.8,0,0,1-1.467-.258,5.845,5.845,0,0,1-1.345-.558,3.851,3.851,0,0,1-1.152-.959,4.609,4.609,0,0,1-.751-1.5,7.146,7.146,0,0,1-.293-2.146,4.173,4.173,0,0,1,1.13-2.947,3.847,3.847,0,0,1,.1-2.919,2,2,0,0,1,1.23.193,8.629,8.629,0,0,1,1.195.551q.379.229.608.386a10.33,10.33,0,0,1,5.494,0l.544-.343a7.7,7.7,0,0,1,1.316-.63,1.874,1.874,0,0,1,1.159-.157,3.809,3.809,0,0,1,.114,2.919A4.174,4.174,0,0,1,18,10.415a7.214,7.214,0,0,1-.293,2.153,4.42,4.42,0,0,1-.758,1.5,4,4,0,0,1-1.159.951,5.837,5.837,0,0,1-1.345.558,9.791,9.791,0,0,1-1.466.258,2.548,2.548,0,0,1,.744,2.031v3.42a.921.921,0,0,0,.071.393.4.4,0,0,0,.229.208,1.268,1.268,0,0,0,.279.071,3.212,3.212,0,0,0,.351.014h3.2a4.128,4.128,0,0,0,4.12-4.121V4.121A3.97,3.97,0,0,0,20.767,1.209Z" />
+    </g>
+    <g id="Group_10" data-name="Group 10" transform="translate(4.306 15.961)">
+      <path id="Path_100" data-name="Path 100" d="M5.913,21.792q-.1.071.029.229t.229.043q.1-.071-.029-.229Q6,21.706,5.913,21.792Z" transform="translate(-5.869 -21.757)" />
+    </g>
+    <g id="Group_11" data-name="Group 11" transform="translate(3.868 15.593)">
+      <path id="Path_101" data-name="Path 101" d="M5.282,21.3q-.043.1.1.172a.122.122,0,0,0,.186-.028q.043-.1-.1-.172Q5.325,21.228,5.282,21.3Z" transform="translate(-5.272 -21.255)" />
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(4.729 16.519)">
+      <path id="Path_102" data-name="Path 102" d="M6.51,22.552q-.129.071,0,.257t.243.1q.129-.1,0-.272C6.677,22.514,6.6,22.485,6.51,22.552Z" transform="translate(-6.446 -22.517)" />
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(5.241 17.143)">
+      <path id="Path_103" data-name="Path 103" d="M7.2,23.422c-.086.076-.067.167.057.272s.21.129.286.043.057-.167-.057-.272S7.274,23.336,7.2,23.422Z" transform="translate(-7.144 -23.367)" />
+    </g>
+  </svg>
+  </a
+                >
+              </div>
+              <div class="social-logo-mobile">
+                <a
+                  href="http://www.behance.com/blazejwilczynski"
+                  target="_blank"
+                  ><svg xmlns="http://www.w3.org/2000/svg" width="22.396" height="22.379" viewBox="0 0 22.396 22.379">
+    <g id="Group_41" data-name="Group 41" transform="translate(0 29.989)">
+      <path id="Path_1968" data-name="Path 1968" d="M10.781-19.041H8.33v1.954h2.291c.408,0,.764-.107.764-1.048S10.781-19.041,10.781-19.041Z" transform="translate(-2.114 -2.778)" />
+      <path id="Path_1969" data-name="Path 1969" d="M10.781-14.519H8.33v2.486h2.309c.355,0,1.03-.142,1.03-1.208C11.687-14.5,10.781-14.519,10.781-14.519Z" transform="translate(-2.114 -3.926)" />
+      <path id="Path_1970" data-name="Path 1970" d="M16.766-29.989H5.612A5.624,5.624,0,0,0,0-24.377v11.172A5.621,5.621,0,0,0,5.612-7.61H16.784A5.624,5.624,0,0,0,22.4-13.223V-24.377A5.651,5.651,0,0,0,16.766-29.989Zm-3.623,7.1h3.73V-22h-3.73ZM11.4-17.041a2.8,2.8,0,0,1-2.735,2.859h-4.4v-9.236H8.649A2.255,2.255,0,0,1,11.1-21a1.526,1.526,0,0,1-1.314,1.723C11.527-19.3,11.4-17.041,11.4-17.041Zm6.7-.16H13.6c0,1.776,1.527,1.634,1.527,1.634,1.439,0,1.385-.924,1.385-.924h1.527c0,2.486-2.966,2.38-2.966,2.38a3.193,3.193,0,0,1-3.321-3.5s0-3.517,3.321-3.517C18.578-21.144,18.1-17.2,18.1-17.2Z" transform="translate(0 0)" />
+      <path id="Path_1971" data-name="Path 1971" d="M19.735-16.4A1.6,1.6,0,0,0,18.208-15h2.842A1.334,1.334,0,0,0,19.735-16.4Z" transform="translate(-4.621 -3.449)" />
+    </g>
+  </svg>
+  </a
+                >
+              </div>
+              <div class="social-logo-dribbble-mobile">
+                <a
+                  href="http://www.dribbble.com/blazejwilczynski"
+                  target="_blank"
+                  ><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.22779,0,0,1.22779,2.7427,-6.05901)">
+        <circle cx="6.695" cy="13.939" r="8.254" style="fill:none;stroke-width:1.3px;"/>
+    </g>
+    <g transform="matrix(1.09257,0,0,1.09257,-0.967891,-1.55859)">
+        <path d="M1.791,10.607C1.791,10.607 10.816,12.109 17.579,5.324" style="fill:none;stroke-width:1.3px;"/>
+    </g>
+    <g transform="matrix(1.09257,0,0,1.09257,-0.967891,-1.55859)">
+        <path d="M4.754,18.451C4.754,18.451 10.568,9.312 20.13,12.605" style="fill:none;stroke-width:1.3px;"/>
+    </g>
+    <g transform="matrix(1.09257,0,0,1.09257,-0.967891,-1.55859)">
+        <path d="M7.266,3.039C7.266,3.039 12.572,8.008 15.284,19.79" style="fill:none;stroke-width:1.3px;"/>
+    </g>
+</svg>
+</a
+                >
+              </div>
+              <div class="social-logo-mobile">
+                <a
+                  href="http://www.instagram.com/blazej_wilczynski"
+                  target="_blank"
+                  ><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Path_404" transform="matrix(1,0,0,1,0.433192,0.60171)">
+        <path d="M15.578,0L6.378,0C2.881,0.004 0.004,2.881 0,6.378L0,15.578C0.004,19.075 2.881,21.952 6.378,21.956L15.578,21.956C19.075,21.952 21.952,19.075 21.956,15.578L21.956,6.378C21.952,2.881 19.075,0.004 15.578,0ZM20.24,15.578C20.237,18.134 18.134,20.237 15.578,20.24L6.378,20.24C3.822,20.237 1.719,18.134 1.716,15.578L1.716,6.378C1.719,3.821 3.821,1.718 6.378,1.715L15.578,1.715C18.135,1.718 20.237,3.821 20.24,6.378L20.24,15.578Z" style="fill-rule:nonzero;"/>
+    </g>
+    <g id="Path_405" transform="matrix(1,0,0,1,-112.507,-112.338)">
+        <path d="M123.918,118C120.671,118 118,120.671 118,123.918C118,127.165 120.671,129.836 123.918,129.836C127.165,129.836 129.836,127.165 129.836,123.918C129.833,120.673 127.163,118.003 123.918,118ZM123.918,128.12C121.614,128.12 119.718,126.224 119.718,123.92C119.718,121.616 121.614,119.72 123.918,119.72C126.222,119.72 128.118,121.616 128.118,123.92C128.114,126.223 126.221,128.116 123.918,128.12Z" style="fill-rule:nonzero;"/>
+    </g>
+    <g id="Ellipse_1" transform="matrix(1,0,0,1,16.4332,4.57871)">
+        <circle cx="1" cy="1" r="1" />
+    </g>
+</svg>
+</a>
+              </div>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of code of hamburger -->
   </div>
 </header>
 
@@ -127,6 +260,8 @@
     </div>
   </div>
 </section>
+
+     
 
       
     

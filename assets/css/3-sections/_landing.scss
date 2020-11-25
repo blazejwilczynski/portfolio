@@ -21,8 +21,8 @@
 }
 
 .landing-main-image {
-  height: 430px;
   width: 320px;
+  height: 430px;
   //background: lightseagreen;
   background-image: url("../img/landing-main-320px-420px.svg");
   background-size: cover;
@@ -70,9 +70,128 @@ span.red-color {
   color: $creepy-pink
 }
 
-//End of landing 1
 
-//---------------
+//Responsive screen for tablet. Below 965px
 
-//Start of landing 2
+@media screen and (max-width: 965px) {
+  .landing {
+    max-width: 700px;
+    padding: 20px 0;
+    //background: salmon;
+  }
 
+  .landing-1-wrapper {
+    height: 340px;
+  }  
+
+  .landing-main-image {
+    width: 255px;
+    height: 340px;
+    background-image: url("../img/landing-main-255px-340px.svg");
+  }
+
+  .welcome-wrapper {
+    width: 350px;
+    height: 340px;
+    padding-top: 60px;
+  }  
+
+  .welcome-wrapper h1 { 
+    font-size: 50px;
+  }  
+
+  .welcome-wrapper h2 { 
+    font-size: 32px;
+  } 
+
+  h3.elements-information {
+    font-size: 18px;
+  }
+  
+}
+
+//Responsive screen for mobile. Below 765px
+
+@media screen and (max-width:765px) {
+  
+  .landing {
+    max-width: 400px;
+  }
+
+  .landing-1-wrapper {
+    display: block;
+    height: 650px;
+    //background: lightcoral;
+    margin: 0 auto;
+  } 
+
+  .landing-main-image {
+    width: 320px;
+    height: 430px;
+    margin: 0 auto;
+    background-image: url("../img/landing-main-320px-420px.svg");
+  } 
+
+  .welcome-wrapper {
+    height: 220px;
+    margin: 0 auto;
+    padding-top: 20px;
+    //background: lightseagreen;
+  }
+
+  .welcome-wrapper h1 { 
+    font-size: 60px;
+  }  
+
+  .welcome-wrapper h2 { 
+    font-size: 36px;
+  } 
+
+  h3.elements-information {
+    font-size: 20px;
+  }
+  
+}
+
+//Second screen for mobile. Below 400px
+
+@media screen and (max-width:400px) {
+
+  .landing {
+    max-width: 380px;
+    padding: 0px;
+    //background: salmon;
+  }
+
+  .landing-1-wrapper {
+    height: 340px;
+  }  
+
+  .landing-main-image {
+    width: 255px;
+    height: 340px;
+    background-image: url("../img/landing-main-255px-340px.svg");
+  }
+
+  .welcome-wrapper {
+    height: 220px;
+    width: 310px;
+    margin: 0 auto;
+    padding-top: 20px;
+    //background: lightseagreen;
+  }
+
+  .welcome-wrapper h1 { 
+    font-size: 50px;
+  }  
+
+  .welcome-wrapper h2 { 
+    font-size: 30px;
+  } 
+
+  h3.elements-information {
+    font-size: 16px;
+  }
+
+
+}
