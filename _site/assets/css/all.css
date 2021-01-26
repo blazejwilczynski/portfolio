@@ -586,7 +586,8 @@ span.red-color {
 
 @media screen and (max-width: 765px) {
   .landing {
-    max-width: 400px; }
+    max-width: 400px;
+    margin-top: 30px; }
   .landing-1-wrapper {
     display: block;
     height: 650px;
@@ -1006,5 +1007,17 @@ h3.project-tile-title {
     margin-top: 25px; }
   .button-www {
     font-size: 16px; } }
+
+section.gfx {
+  overflow: hidden;
+  display: block;
+  width: 100%; }
+
+.gfx-wrap {
+  display: block;
+  max-width: 1025px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 40px; }
 
 /*# sourceMappingURL=all.css.map */
