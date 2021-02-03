@@ -8,7 +8,7 @@ section.www {
 
 .www-projects-wrap {
     display: block;
-    max-width: 1025px;
+    max-width: 840px;
     height: 500px;
     margin: 0 auto;
     margin-top: 50px;
@@ -17,7 +17,7 @@ section.www {
 }
 
 h2.www-title {
-    margin-left: 25px;
+    //margin-left: 0px;
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
     color: $base-text-color;
@@ -29,9 +29,10 @@ h2.www-title {
 .tiles-wrap {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    max-width: 840px;
     height: 420px;
+    margin: auto;
     
     //background: lightblue;
 }
@@ -146,7 +147,7 @@ h3.project-tile-title {
     }
 
     h2.www-title {
-        //margin-left: 25px;
+        margin-left: 0px;
         //margin-block-start: 0.2em;
         //margin-block-end: 0.2em;
         //color: $base-text-color;
@@ -255,7 +256,7 @@ h3.project-tile-title {
     }
 
     h2.www-title {
-        //margin-left: 25px;
+        margin-left: 30px;
         //margin-block-start: 0.2em;
         //margin-block-end: 0.2em;
         //color: $base-text-color;
@@ -306,7 +307,7 @@ h3.project-tile-title {
     
     }
     
- 
+
     .project-description {
         width: 295px;
         height: 55px;

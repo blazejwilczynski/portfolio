@@ -4,12 +4,178 @@ section.gfx {
   width: 100%;
   //height: 550px;
   //background: lightseagreen;
+  padding-bottom: 30px;
 }
 
 .gfx-wrap {
   display: block;
-  max-width: 1025px;
+  max-width: 840px;
   height: 500px;
   margin: 0 auto;
   margin-top: 40px;
+}
+
+.gfx-tiles-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 840px;
+  height: 440px;
+  margin: 20px auto;
+}
+
+.gfx-tile {
+  width: 360px;
+  height: 415px;
+  //background: lightgreen;
+  border: 1px solid $base-text-color;
+  border-radius: 5px;
+}
+
+.gfx-tile-cover {
+  width: 330px;
+  height: 270px;
+  margin: 15px auto;
+  margin-bottom: 0px;
+  border: 1px solid $base-text-color;
+  border-radius: 5px;
+}
+
+.behance-cover {
+  background: url("../img/behance-cover.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dribbble-cover {
+  background: url("../img/dribbble-cover.png");
+  background-size: contain;
+  background-position: center center;
+}
+
+.cover-blanket {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: all 0.4s ease;
+
+}
+
+.cover-blanket:hover {
+  opacity: 0.2;
+}
+
+
+.behance-logo-written {
+  width: 170px;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.behance-logo-written path {
+  fill: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease;
+}
+
+.behance-logo-written:hover path {
+  fill: rgb(16, 94, 251);
+}
+
+.dribbble-logo-written {
+  width: 150px;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.dribbble-logo-written path {
+  fill: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease;
+}
+
+.dribbble-logo-written:hover path {
+  fill: rgb(232, 79, 138);
+}
+
+
+//Responsive tablet 965px
+
+@media screen and (max-width: 965px) {
+
+.gfx-wrap {
+  max-width: 700px;
+  height: 425px;
+  //margin: 0 auto;
+  margin-top: 20px;
+}
+
+.gfx-tiles-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 700px;
+  height: 390px;
+  margin: 0px auto;
+}
+
+.gfx-tile {
+  width: 300px;
+  height: 345px;
+}
+
+.gfx-tile-cover {
+  width: 270px;
+  height: 235px;
+  //margin: 15px auto;
+  //margin-bottom: 0px;
+  //border: 1px solid $base-text-color;
+  //border-radius: 5px;
+}
+
+.behance-logo-written {
+  width: 140px;
+  //margin: 0px auto;
+  margin-top: 35px;
+}
+
+.dribbble-logo-written {
+  width: 130px;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+}
+
+
+//Responsive mobile 765px
+
+@media screen and (max-width: 765px) {
+
+  .gfx-wrap {
+    max-width: 700px;
+    height: 1000px;
+    //margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .gfx-tiles-wrap {
+    display: block;
+   // align-items: center;
+    //justify-content: space-between;
+    max-width: 400px;
+    //height: 390px;
+    margin: 0px auto;
+  }
+
+  .gfx-tile {
+    width: 300px;
+    height: 345px;
+    margin: 20px auto;
+    
+  }
+
+  .gfx-tile:nth-child(1) {
+    margin-bottom: 50px;
+  }
+
 }

@@ -509,7 +509,7 @@ closing menu. Also allows to change size of icons on mobile devices */
   border-radius: 5px; }
 
 .landing {
-  max-width: 1025px;
+  max-width: 940px;
   margin: 25px auto;
   margin-top: 85px;
   color: rgba(0, 0, 0, 0.75); }
@@ -804,13 +804,12 @@ section.www {
 
 .www-projects-wrap {
   display: block;
-  max-width: 1025px;
+  max-width: 840px;
   height: 500px;
   margin: 0 auto;
   margin-top: 50px; }
 
 h2.www-title {
-  margin-left: 25px;
   margin-block-start: 0.2em;
   margin-block-end: 0.2em;
   color: #3c3c3c;
@@ -820,9 +819,10 @@ h2.www-title {
 .tiles-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  height: 420px; }
+  justify-content: space-between;
+  max-width: 840px;
+  height: 420px;
+  margin: auto; }
 
 .project-tile {
   width: 230px;
@@ -900,6 +900,7 @@ h3.project-tile-title {
   .www-projects-wrap {
     max-width: 700px; }
   h2.www-title {
+    margin-left: 0px;
     font-size: 22px; }
   .tiles-wrap {
     height: 350px;
@@ -935,6 +936,7 @@ h3.project-tile-title {
   .www-projects-wrap {
     max-width: 400px; }
   h2.www-title {
+    margin-left: 30px;
     font-size: 30px; }
   .tiles-wrap {
     display: block;
@@ -1011,13 +1013,122 @@ h3.project-tile-title {
 section.gfx {
   overflow: hidden;
   display: block;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 30px; }
 
 .gfx-wrap {
   display: block;
-  max-width: 1025px;
+  max-width: 840px;
   height: 500px;
   margin: 0 auto;
   margin-top: 40px; }
+
+.gfx-tiles-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 840px;
+  height: 440px;
+  margin: 20px auto; }
+
+.gfx-tile {
+  width: 360px;
+  height: 415px;
+  border: 1px solid #3c3c3c;
+  border-radius: 5px; }
+
+.gfx-tile-cover {
+  width: 330px;
+  height: 270px;
+  margin: 15px auto;
+  margin-bottom: 0px;
+  border: 1px solid #3c3c3c;
+  border-radius: 5px; }
+
+.behance-cover {
+  background: url("../img/behance-cover.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.dribbble-cover {
+  background: url("../img/dribbble-cover.png");
+  background-size: contain;
+  background-position: center center; }
+
+.cover-blanket {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: all 0.4s ease; }
+
+.cover-blanket:hover {
+  opacity: 0.2; }
+
+.behance-logo-written {
+  width: 170px;
+  margin: 0px auto;
+  margin-top: 50px; }
+
+.behance-logo-written path {
+  fill: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease; }
+
+.behance-logo-written:hover path {
+  fill: #105efb; }
+
+.dribbble-logo-written {
+  width: 150px;
+  margin: 0px auto;
+  margin-top: 50px; }
+
+.dribbble-logo-written path {
+  fill: rgba(0, 0, 0, 0.75);
+  transition: all 0.4s ease; }
+
+.dribbble-logo-written:hover path {
+  fill: #e84f8a; }
+
+@media screen and (max-width: 965px) {
+  .gfx-wrap {
+    max-width: 700px;
+    height: 425px;
+    margin-top: 20px; }
+  .gfx-tiles-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 700px;
+    height: 390px;
+    margin: 0px auto; }
+  .gfx-tile {
+    width: 300px;
+    height: 345px; }
+  .gfx-tile-cover {
+    width: 270px;
+    height: 235px; }
+  .behance-logo-written {
+    width: 140px;
+    margin-top: 35px; }
+  .dribbble-logo-written {
+    width: 130px;
+    margin: 0px auto;
+    margin-top: 30px; } }
+
+@media screen and (max-width: 765px) {
+  .gfx-wrap {
+    max-width: 700px;
+    height: 1000px;
+    margin-top: 20px; }
+  .gfx-tiles-wrap {
+    display: block;
+    max-width: 400px;
+    margin: 0px auto; }
+  .gfx-tile {
+    width: 300px;
+    height: 345px;
+    margin: 20px auto; }
+  .gfx-tile:nth-child(1) {
+    margin-bottom: 50px; } }
 
 /*# sourceMappingURL=all.css.map */
