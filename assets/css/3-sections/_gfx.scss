@@ -192,11 +192,55 @@ section.gfx {
     //margin: 0px auto;
     margin-top: 50px;
   }
+
+  .dribbble-cover {
+    background: url("../img/dribbble-cover-2.png");
+    background-size: contain;
+    background-position: center center;
+  }
   
   .dribbble-logo-written {
     width: 160px;
     margin: 0px auto;
     margin-top: 45px;
   }
+
+}
+
+
+@media screen and (max-width:400px) {
+
+  .gfx-wrap {
+    max-width: 300px;
+    height: 900px;
+    //margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .gfx-tiles-wrap {
+    //display: block;
+   // align-items: center;
+    //justify-content: space-between;
+    max-width: 300px;
+    //height: 390px;
+    margin: 0px auto;
+  }
+
+  .gfx-tile {
+    width: 250px;
+    height: 380px;
+    margin: 20px auto;
+    
+  }
+
+  .gfx-tile-cover {
+    width: 225px;
+    height: 220px;
+    //margin: 15px auto;
+    //margin-bottom: 0px;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+  }
+
 
 }
