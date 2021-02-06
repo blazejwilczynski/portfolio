@@ -102,7 +102,8 @@ h3.project-tile-title {
 
 }
 
-.button-www-rockstar, .button-www-skeleton, .button-www-1977  {
+.button-www  {
+    z-index: 10;
     display: block;
     padding: 2px 4px;
     border: 2px solid $yellow;
@@ -117,7 +118,7 @@ h3.project-tile-title {
     transition: all 0.4s ease;
 }
 
-.button-www-rockstar:hover, .button-www-skeleton:hover, .button-www-1977:hover {
+.button-www:hover {
     border: 2px solid $mint-green;
     background: $mint-green;
 }
@@ -213,7 +214,7 @@ h3.project-tile-title {
     
     }
     
-    .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
+    .button-www {
         //display: block;
         //padding: 2px 4px;
         //border: 2px solid $yellow;
@@ -325,7 +326,7 @@ h3.project-tile-title {
     
     }
     
-    .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
+    .button-www {
         //display: block;
         //padding: 2px 4px;
         //border: 2px solid $yellow;
@@ -439,7 +440,7 @@ h3.project-tile-title {
     
     }
     
-    .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
+    .button-www {
         //display: block;
         //padding: 2px 4px;
         //border: 2px solid $yellow;

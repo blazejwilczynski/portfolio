@@ -632,7 +632,7 @@ span.red-color {
 
 /* Burger menu based on tutorial by Traversy media. Adapted to my project */
 .menu-wrap {
-  position: fixed;
+  position: absolute;
   top: 0px;
   right: 0px;
   z-index: 1;
@@ -640,7 +640,7 @@ span.red-color {
   display: none; }
 
 .menu-wrap .toggler {
-  position: fixed;
+  position: absolute;
   top: 8px;
   right: 5px;
   z-index: 2;
@@ -650,7 +650,7 @@ span.red-color {
   opacity: 0; }
 
 .menu-wrap .hamburger {
-  position: fixed;
+  position: absolute;
   top: 8px;
   right: 5px;
   z-index: 1;
@@ -873,7 +873,8 @@ h3.project-tile-title {
   width: 100px;
   margin: 15px auto; }
 
-.button-www-rockstar, .button-www-skeleton, .button-www-1977 {
+.button-www {
+  z-index: 10;
   display: block;
   padding: 2px 4px;
   border: 2px solid #E8BD79;
@@ -887,7 +888,7 @@ h3.project-tile-title {
   text-decoration: none;
   transition: all 0.4s ease; }
 
-.button-www-rockstar:hover, .button-www-skeleton:hover, .button-www-1977:hover {
+.button-www:hover {
   border: 2px solid #9FB9B2;
   background: #9FB9B2; }
 
@@ -925,7 +926,7 @@ h3.project-tile-title {
   .button-wrap {
     width: 75px;
     margin: 12px auto; }
-  .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
+  .button-www {
     font-size: 12px; } }
 
 @media screen and (max-width: 765px) {
@@ -965,7 +966,7 @@ h3.project-tile-title {
     width: 125px;
     margin: 12px auto;
     margin-top: 25px; }
-  .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
+  .button-www {
     font-size: 20px;
     transition: none; } }
 
@@ -1008,7 +1009,7 @@ h3.project-tile-title {
     width: 115px;
     margin: 12px auto;
     margin-top: 25px; }
-  .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
+  .button-www {
     font-size: 16px;
     transition: none; } }
 
@@ -1068,6 +1069,7 @@ section.gfx {
   opacity: 0.2; }
 
 .behance-logo-written {
+  z-index: 10;
   width: 170px;
   margin: 0px auto;
   margin-top: 50px; }
@@ -1080,6 +1082,7 @@ section.gfx {
   fill: #105efb; }
 
 .dribbble-logo-written {
+  z-index: 10;
   width: 150px;
   margin: 0px auto;
   margin-top: 50px; }
