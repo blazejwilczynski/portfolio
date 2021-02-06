@@ -873,7 +873,7 @@ h3.project-tile-title {
   width: 100px;
   margin: 15px auto; }
 
-.button-www {
+.button-www-rockstar, .button-www-skeleton, .button-www-1977 {
   display: block;
   padding: 2px 4px;
   border: 2px solid #E8BD79;
@@ -887,7 +887,7 @@ h3.project-tile-title {
   text-decoration: none;
   transition: all 0.4s ease; }
 
-.button-www:hover {
+.button-www-rockstar:hover, .button-www-skeleton:hover, .button-www-1977:hover {
   border: 2px solid #9FB9B2;
   background: #9FB9B2; }
 
@@ -925,7 +925,7 @@ h3.project-tile-title {
   .button-wrap {
     width: 75px;
     margin: 12px auto; }
-  .button-www {
+  .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
     font-size: 12px; } }
 
 @media screen and (max-width: 765px) {
@@ -965,7 +965,7 @@ h3.project-tile-title {
     width: 125px;
     margin: 12px auto;
     margin-top: 25px; }
-  .button-www {
+  .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
     font-size: 20px;
     transition: none; } }
 
@@ -1008,7 +1008,7 @@ h3.project-tile-title {
     width: 115px;
     margin: 12px auto;
     margin-top: 25px; }
-  .button-www {
+  .button-www-rockstar, .button-www-skeleton, .button-www-1977 {
     font-size: 16px;
     transition: none; } }
 
