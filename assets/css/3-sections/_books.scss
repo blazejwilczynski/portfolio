@@ -1,0 +1,167 @@
+section.books {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    //height: 550px;
+    //background: lightseagreen;
+    padding-bottom: 40px;
+  }
+  
+  .books-wrap {
+    display: block;
+    max-width: 840px;
+    height: 585px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+  .books-tiles-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 840px;
+    height: 570px;
+    margin: -5px auto;
+  
+  }
+
+  .book-tile {
+    width: 360px;
+    height: 509px;
+    //background: lightgreen;
+    border: 1px solid $base-text-color;
+    border-radius: 5px;
+  }
+
+  .rockstar-book-cover {
+    width: 100%;
+    height: 100%;
+    background: url("../img/rockstar_cover.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .skeleton-book-cover {
+    width: 100%;
+    height: 100%;
+    background: url("../img/skeleton_cover.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+
+  //Responsive tablet 965px
+  
+  @media screen and (max-width: 965px) {
+
+    .books-wrap {
+      //display: block;
+      max-width: 700px;
+      height: 480px;
+      //margin: 0 auto;
+      margin-top: 20px;
+
+
+    }
+
+    .books-tiles-wrap {
+      //display: flex;
+      //align-items: center;
+      //justify-content: space-between;
+      max-width: 700px;
+      height: 480px;
+      margin: -10px auto;
+    
+    }
+
+    .book-tile {
+      width: 300px;
+      height: 424px;
+      //background: lightgreen;
+      //border: 1px solid $base-text-color;
+      //border-radius: 5px;
+    }
+
+  }
+
+
+  //Responsive mobile 765px
+
+@media screen and (max-width: 765px) {
+
+  .books-wrap {
+    //display: block;
+    max-width: 400px;
+    height: 1080px;
+    //margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .books-tiles-wrap {
+    display: block;
+    //align-items: center;
+    //justify-content: space-between;
+    max-width: 400px;
+    height: 1080px;
+    margin: 0px auto;
+  
+  }
+
+  .book-tile {
+    width: 330px;
+    height: 467px;
+    //background: lightgreen;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+    margin: 30px auto;
+  }
+
+  .book-tile:nth-child(1) {
+    margin-bottom: 50px;
+  }
+
+}
+
+
+//Responsive mobile 400px
+
+@media screen and (max-width:400px) {
+
+  .books-wrap {
+    //display: block;
+    max-width: 300px;
+    height: 920px;
+    //margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .books-tiles-wrap {
+    display: block;
+    //align-items: center;
+    //justify-content: space-between;
+    max-width: 300px;
+    height: 920px;
+    margin: 0px auto;
+  
+  }
+
+  .book-tile {
+    width: 250px;
+    height: 354px;
+    //background: lightgreen;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+    margin: 20px auto;
+  }
+
+  .book-tile:nth-child(1) {
+    margin-bottom: 50px;
+  }
+
+}
+
+
+
