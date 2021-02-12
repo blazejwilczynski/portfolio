@@ -1250,13 +1250,13 @@ section.books {
 @media screen and (max-width: 400px) {
   .books-wrap {
     max-width: 300px;
-    height: 920px;
+    height: 820px;
     margin-top: 20px; }
   .books-tiles-wrap {
     display: block;
     max-width: 300px;
-    height: 920px;
-    margin: 0px auto; }
+    height: 820px;
+    margin: 10px auto; }
   .book-tile {
     width: 250px;
     height: 354px;
