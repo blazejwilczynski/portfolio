@@ -1,0 +1,467 @@
+section.about {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  //height: 550px;
+  //background: lightseagreen;
+  padding-bottom: 0px;
+}
+
+.about-wrap {
+  display: block;
+  max-width: 840px;
+  height: 820px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.about-tiles-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 840px;
+  height: 410px;
+  margin: -25px auto;
+}
+
+
+.about-tile {
+  width: 360px;
+  height: 340px;
+  //background: lightgreen;
+  //border: 1px solid $base-text-color;
+  //border-radius: 5px;
+}
+
+.bobek-circle {
+  width: 280px;
+  height: 280px;
+  margin: 15px auto;
+  border: 1px solid $base-text-color;
+  border-radius: 50%;
+  background: url("../img/bobek-avatar.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: all 0.4s ease;
+}
+
+.bobek-circle:hover {
+  background: url("../img/bobek-mask.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: rotate(45deg);
+}
+
+.hello-computer {
+  width: 360px;
+  height: 340px;
+  background: url("../img/hello-computer-360-x-340.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+//text area
+
+#description-wrap {
+  margin: 0 auto;
+}
+
+#text-area {
+  //background: lightgreen;
+  width: 320px;
+  //border: 1px solid $base-text-color;
+  //border-radius: 5px;
+}
+
+#text-area-links {
+  width: 415px;
+  //background: lightgreen;
+  //border: 1px solid $base-text-color;
+  border-radius: 5px;
+}
+
+h4 {
+  margin-top: 0px;
+  color: $base-text-color;
+  margin-block-end: 0.25em;
+  -webkit-margin-before: 0.25em;
+  -webkit-margin-after: 0.25em; 
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.description-line {
+  width: 100%;
+  height: 1px;
+  background: $base-text-color;
+}
+
+.about-description {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  color: $base-text-color;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.links-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.first-row {
+  margin-top: 20px;
+}
+
+
+.button-code,.button-gfx,.button-podcast, .button-music  {
+  font-size: 18px;
+  color: white;
+  //margin-left: 30px;
+  border-radius: 5px;
+  padding: 5px 7px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button-code {
+  background: $yellow;
+  border: 2px solid $yellow;
+}
+
+.button-code:hover {
+  background: white;
+  border-color: $yellow;
+  color: $yellow;
+}
+
+.button-gfx {
+  background: $blue;
+  border: 2px solid $blue;
+}
+
+.button-gfx:hover {
+  background: white;
+  border-color: $blue;
+  color: $blue;
+}
+
+.button-music {
+  background: $pink;
+  border: 2px solid $pink;
+}
+
+.button-music:hover {
+  background: white;
+  border-color: $pink;
+  color: $pink;
+}
+
+.button-podcast {
+  background: $green;
+  border: 2px solid $green;
+}
+
+.button-podcast:hover {
+  background: white;
+  border-color: $green;
+  color: $green;
+}
+
+#mobile-links {
+  display: none;
+}
+
+#mobile-links-2 {
+  display: none;
+}
+
+
+
+
+
+//Responsive tablet 965px
+
+@media screen and (max-width: 965px) {
+
+  .about-wrap {
+    display: block;
+    max-width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .about-tiles-wrap {
+    max-width: 700px;
+    height: 340px;
+    margin-top: 0px;
+  }
+
+  .about-tile {
+    width: 300px;
+    height: 300px;
+    //background: lightgreen;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+  }
+
+  .bobek-circle {
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+  }
+
+  .hello-computer {
+    width: 320px;
+    height: 302px;
+  }
+
+ //text area
+
+  #text-area {
+    //background: lightgreen;
+    width: 260px;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+  }
+  
+  #text-area-links {
+    width: 360px;
+    //background: lightgreen;
+    //border: 1px solid $base-text-color;
+    border-radius: 5px;
+  }
+
+  .about-description {
+    //width: 100%;
+    height: 300px;
+    margin-top: 12px;
+    //color: $base-text-color;
+    font-size: 16px;
+    //font-weight: 400;
+  }
+
+  .button-code,.button-gfx,.button-podcast, .button-music  {
+    //color: white;
+    //margin-left: 30px;
+    //border-radius: 5px;
+    padding: 4px 6px;
+    font-size: 14px;
+    
+  }
+
+
+}
+
+
+//Responsive mobile 765px
+
+@media screen and (max-width: 765px) {
+
+  .about-wrap {
+    display: block;
+    max-width: 400px;
+    height: 1520px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .about-tiles-wrap {
+    flex-direction: column;
+    max-width: 400px;
+    height: 700px;
+    margin-top: 40px;
+  }
+
+  .about-tile {
+    width: 345px;
+    height: 326px;
+    //background: lightgreen;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+    margin: 30px auto;
+  }
+
+  
+  #bobek-avatar {
+    order: 2;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  #hello-computer {
+    order: 1;
+    margin-top: -10px;
+  }
+  
+  .bobek-circle {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+  }
+
+  .hello-computer {
+    width: 365px;
+    height: 345px;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+   //text area
+
+   #description-wrap {
+     height: 640px;
+   }
+
+
+   #text-area {
+    //background: lightgreen;
+    width: 330px;
+    height: 260px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+  }
+  
+  #text-area-links {
+    width: 330px;
+    //background: lightgreen;
+    //border: 1px solid $base-text-color;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+
+  .about-description {
+    height: 260px;
+    font-size: 18px;
+  }
+
+  #desktop-links {
+    display: none;
+  }
+
+  #mobile-links {
+    display: flex;
+    //justify-content: space-around;
+  }
+
+  .button-code,.button-gfx,.button-podcast, .button-music  {
+    font-size: 18px;
+    color: white;
+    //margin-left: 30px;
+    border-radius: 5px;
+    padding: 5px 7px;
+    font-size: 16px;
+  }
+
+
+}
+
+
+
+//Responsive mobile 400px
+
+@media screen and (max-width:400px) {
+
+  .about-wrap {
+    display: block;
+    max-width: 300px;
+    height: 1480px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .about-tiles-wrap {
+    flex-direction: column;
+    max-width: 300px;
+    height: 520px;
+    margin-top: 40px;
+  }
+
+  .about-tile {
+    width: 250px;
+    height: 250px;
+    //background: lightgreen;
+    //border: 1px solid $base-text-color;
+    //border-radius: 5px;
+    margin: 30px auto;
+  }
+
+  .bobek-circle {
+    width: 240px;
+    height: 240px;
+    margin: -20px auto;
+  }
+
+  .hello-computer {
+    width: 250px;
+    height: 236px;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+
+  //text area
+
+  #description-wrap {
+    height: 640px;
+  }
+
+
+  #text-area {
+   //background: lightgreen;
+   width: 250px;
+   height: 320px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   //border: 1px solid $base-text-color;
+   //border-radius: 5px;
+ }
+ 
+ #text-area-links {
+   width: 250px;
+   //background: lightgreen;
+   //border: 1px solid $base-text-color;
+   margin: 0 auto;
+   margin-top: 30px;
+   border-radius: 5px;
+ }
+
+ .about-description {
+   height: 260px;
+   font-size: 18px;
+ }
+
+ #desktop-links {
+   display: none;
+ }
+
+ #mobile-links {
+   display: none;
+   //justify-content: space-around;
+ }
+
+ #mobile-links-2 {
+  display: flex;
+  //justify-content: space-around;
+}
+
+ .button-code,.button-gfx,.button-podcast, .button-music  {
+   font-size: 18px;
+   color: white;
+   //margin-left: 30px;
+   border-radius: 5px;
+   padding: 4px 6px;
+   font-size: 15px;
+ }
+
+
+
+}
