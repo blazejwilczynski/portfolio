@@ -22,6 +22,10 @@ h2.www-title {
     margin-block-end: 0.2em;
     -webkit-margin-before: 0.2em;
     -webkit-margin-after: 0.2em; 
+    -moz-margin-before: 0.2em;
+    -moz-margin-after: 0.2em;
+    -ms-margin-before: 0.2em;
+     -ms-margin-after: 0.2em;
     color: $base-text-color;
     font-size: 27px;
     font-weight: 400;
