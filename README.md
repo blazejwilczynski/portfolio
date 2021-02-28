@@ -1,3 +1,3 @@
-# Creepy Code
+# Blazej Wilczynski
 
-Just learining around for now!
+My portfolio website powered by Jekyll!
