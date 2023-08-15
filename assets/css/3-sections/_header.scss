@@ -1,6 +1,6 @@
 header {
   //background: #F1F1F1;
-  height: 75px;
+  height: 35px;
   max-width: 1215px;
   //background-color: lightsalmon;
   margin: 0 auto;
@@ -11,15 +11,12 @@ header {
   color: $base-text-color;
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .header-wrap {
   display: flex;
-  align-items: center ;
   width: 100%;
-  height: 75px;
-  //background: lightcoral;
 }
 
 .bw-logo {
@@ -28,15 +25,15 @@ header {
   width: 42px;
   //margin-left: 25px;
   margin-right: 25px;
-  //margin-top: 20px;
+  margin-top: 2px;
   background: url("../img/bw-logo-25px-42px.svg");
   background-size: cover;
 }
 
 nav {
-  width: 600px;
+  width: 450px;
   margin-top: 5px;
-  background: lightseagreen;
+  //background: lightseagreen;
 }
 
 .nav-element {
@@ -62,12 +59,12 @@ nav {
 .social-icons-wrap {
   display: flex;
   justify-content: flex-end;
-  width: -webkit-calc(100% - 642px);
-  width: -moz-calc(100% - 642px);
-  width: calc(100% - 642px);
+  width: -webkit-calc(100% - 530px);
+  width: -moz-calc(100% - 530px);
+  width: calc(100% - 530px);
   height: 25px;
   margin-top: 5px;
-  background: lightpink;
+  //background: lightpink;
 }
 
 .social-links {
